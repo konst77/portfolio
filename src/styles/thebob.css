@@ -1,0 +1,95 @@
+body {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .logo {
+    margin-right: auto;
+    margin-left: 200px;
+  }
+  
+  .navmenu {
+    display: flex;
+    gap: 40px;
+    margin-right: 200px;
+  }
+  
+  nav a {
+    color: #000;
+    font-family: Satoshi;
+    text-decoration: none;
+  }
+  
+  .grids {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 30px;
+    width: 100%
+  }
+
+  .thebobh {
+    font-size: 40px;
+    line-height: 48px;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .prjhero {
+    margin-bottom: 100px;
+  }
+
+  .prjheroimg {
+    grid-column: 1 / 7;
+  }
+
+  .bobphone {
+    width: 100%;
+    height: auto;
+  }
+
+  .prjheader {
+    grid-column: 7 / 12;
+    align-content: end;
+    align-self: self-end;
+    margin-bottom: 60px;
+  }
+
+  #filler {
+    grid-column: 12 / end;
+  }
+
+  .prjintro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: #DDD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: #DDD;
+  }
+
+  #prjintro {
+    margin: 0;
+  }
