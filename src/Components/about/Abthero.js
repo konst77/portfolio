@@ -4,10 +4,10 @@ import profile from '../../../Image/profile.png'
 const Abthero = () => {
     return (
         <>
-            <div class='abthero'>
-                <div class='grids'>
+            <div className='abthero'>
+                <div className='grids'>
                     <Image id='abtprofile' src={profile} />
-                    <div class='abtherodiv'>
+                    <div className='abtherodiv'>
                         <h1 id='abthero' class='heroh1'>Self-taught designer based in Seattle.<br></br>
 Currently @Human-Centered Studio.<br></br>
 <br></br>

@@ -3,12 +3,12 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav>
-        <div class='logo'>
+        <div className='logo'>
             <Link id="logo" href="/">
             Your Logo Here
             </Link>
         </div>
-        <div class='navmenu'>
+        <div className='navmenu'>
             <Link id="link" href="/about">
             About
             </Link>

@@ -5,7 +5,7 @@ function Abt({ src, text }) {
     const myText = text || 'default text';
 
     return (
-      <div class='grids'>
+      <div className='grids'>
         <Image id='abtimg' src={src} />
         <p id='abtp'>{myText}</p>
       </div>

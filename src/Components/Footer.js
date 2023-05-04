@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <div id='footer' class='grids'>
-            <div class='footerall'>
+        <div id='footer' className='grids'>
+            <div className='footerall'>
                 <div class='footerdiv'>
                     <Link id='ftlink' href='/'>Home</Link>
                 </div>
