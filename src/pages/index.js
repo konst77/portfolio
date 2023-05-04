@@ -9,14 +9,6 @@ import Footer from '../Components/Footer'
 
 
 export default function Home() {
-
-  function ScrollButton({ sectionId }) {
-    function handleClick() {
-      const section = document.getElementById(sectionId);
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-  
   return (
     <>
       <Head>
