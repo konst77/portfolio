@@ -17,13 +17,13 @@ const Navbar = () => {
            
         </div>
         <div className='navmenu'>
-            <Customlink href="/" title="Home" className=''/>
+            <Customlink href="/about" title="About" className=''/>
 
 
-            <Customlink href="/" title="Home" className=''/>
+            <Customlink href="/learning" title="Learning" className=''/>
         
 
-            <Customlink href="/" title="Home" className=''/>
+            <Customlink href="/" title="Contact" className=''/>
     
         </div>
     </nav>
