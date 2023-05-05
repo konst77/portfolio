@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profileimg from '/image/profile.png'
+import profileimg from '/Image/profile.png'
 
 const Personal = () => {
     return(
