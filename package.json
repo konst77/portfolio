@@ -2,12 +2,13 @@
   "name": "ray-moon-portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  
+  "script": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+     "build": "next build", 
+     "start": "next start",
+     "lint": "next lint"
+ },
   "dependencies": {
     "@next/font": "^13.3.4",
     "next": "13.3.4",
