@@ -1,25 +1,30 @@
 import Link from 'next/link';
 
 const Navbar = () => {
+
+  const Customlink = ({href, title, className=""}) => {
+    return (
+      <Link href={href} className={'${className}'}>
+        {title}
+      </Link>
+    )
+  }
+
   return (
     <nav>
         <div className='logo'>
-            <Link id="logo" href="/">
-            Your Logo Here
-            </Link>
+            <Customlink href="/" title="Home" className=''/>
+           
         </div>
         <div className='navmenu'>
-            <Link id="link" href="/about">
-            About
-            </Link>
+            <Customlink href="/" title="Home" className=''/>
 
-            <Link id="link" href="/learning">
-            Learnings
-            </Link>
 
-            <Link id="link" href="/contact">
-            Contact
-            </Link>
+            <Customlink href="/" title="Home" className=''/>
+        
+
+            <Customlink href="/" title="Home" className=''/>
+    
         </div>
     </nav>
   );
