@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </div>
             
-            <h4 class='footertag'>©RayMoon2023</h4>
+            <h4 className='footertag'>©RayMoon2023</h4>
     
         </div>
     );
