@@ -1,20 +1,10 @@
-import Libhero from '../Components/library/Libhero'
-import Footer from '../Components/Footer'
-import Navbar from '../Components/Navbar'
-import Shelf from '../Components/library/Shelf'
+import Footer from '../../Components/Footer'
+import Navbar from '../../Components/Navbar'
 
-export default function Library() {
+export default function Niet() {
     return (
         <>
             <Navbar />
-
-            <Libhero />
-
-            <hr></hr>
-
-            <Shelf />
-
-            <hr></hr>
 
             <Footer />
         </>
