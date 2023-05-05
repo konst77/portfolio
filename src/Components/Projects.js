@@ -23,8 +23,8 @@ const Projects = () => {
             </div>
         </Link>
 
-        <Link href="/moonstudioai">
-            <div className='prjdiv' href="/moonstudioai">
+        <Link href="/projects/moonstudioai">
+            <div className='prjdiv'>
               <div className='prjimage'>
                 <Image className="prjimg" src={msai} alt="MoonStudioAi" />
               </div>
@@ -37,8 +37,8 @@ const Projects = () => {
             </div>
         </Link>
 
-        <Link href="/niet">
-          <div className='prjdiv' href="/niet">
+        <Link href="/projects/niet">
+          <div className='prjdiv'>
             <div className='prjimage'>
             <Image className="prjimg" src={niet} alt="n i e t" />
             </div>
