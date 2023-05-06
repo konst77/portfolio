@@ -6,12 +6,11 @@ const Hero = () => {
       <div className="grids">
         <div className="hero">
           <h1 className="heroh1">
-            Ray crafts smooth experiences for digital products.
+            Product Designer Ray crafts solutions for digital products.
           </h1>
           <p>
-            With over 1 year of experience in understanding customer needs,
-            turning that into product ideations, telling brand stories to reach
-            the next level.‍
+            With over 1 year of experience in understanding problems,
+            obsessing over customers, designing solutions with efficiency.‍
           </p>
           <ScrollButton sectionId="projects" />
         </div>

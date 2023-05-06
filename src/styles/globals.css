@@ -110,7 +110,10 @@ p {
 
 .herobutton:hover {
   background-color: #2a61f0;
+  transform: scale(1.025);
   color: white;
+  transition-property: all;
+  transition-duration: 0.35s;
 }
 
 hr {
@@ -150,7 +153,7 @@ h2 {
 
 .prjimg {
   width: 100%;
-  min-height: 100%;
+  min-height: auto;
   max-height: 640px;
   background-color: #f1f1f5;
   border-radius: 8px;
@@ -376,6 +379,8 @@ color: white;
   margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  border-radius: 8px;
+  border: 1px #f1f1f5;
 }
 
 .learningh {
