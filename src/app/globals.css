@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: satoshi;
+}
+
+
+h1 {
+  font-family: cabinet;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+}
+
+p {
+  font-family: satoshi;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: cabinet;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: cabinet;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+#prjdiv,
+#prjimg {
+  color:black;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+#prjdiv:hover,
+#prjimg:hover {
+  color: #2A61F0;
+  transition-property: all;
+  transform: scale(0.98);
+  transition-duration: 300ms;
+}
