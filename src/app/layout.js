@@ -1,6 +1,8 @@
 import './globals.css'
 import Script from 'next/script'
 import localFont from 'next/font/local';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './../../public/font/css/cabinet-grotesk.css'
 import './../../public/font/css/satoshi.css'
 
@@ -47,7 +49,11 @@ export default function RootLayout({ children }) {
         }}
       />
     <html lang="en">
-      <body className={`${cabinet.variable} ${satoshi.variable}`}>{children}</body>
+      <body className={`${cabinet.variable} ${satoshi.variable}`}>
+        <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
     </>
   )

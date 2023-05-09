@@ -7,10 +7,10 @@ import Image from 'next/image'
 import logo from '../../../public/logo.png'
 
 const navigation = [
-  { name: 'Projects', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Learning', href: '#' },
-  { name: 'Coffee?', href: '#' },
+  { name: 'Projects', href: '/projects' },
+  { name: 'About', href: '/about' },
+  { name: 'Learning', href: '/learning' },
+  { name: 'Coffee?', href: '/contact' },
 ]
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
       <header className="fixed inset-x-0 top-0 z-50 bg-[#fff]">
         <nav className="flex items-center justify-between py-4 px-4 md:px-40 md:py-4" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <Image
                 className="h-8 w-auto"
                 src={logo}
@@ -52,7 +52,7 @@ export default function Navbar() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#fff] px-10 py-10 sm:max-w-full sm:ring-1 sm:ring-gray-900/10">
             <div className="flex justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">logo</span>
                 <Image
                   className="h-8 w-auto"
