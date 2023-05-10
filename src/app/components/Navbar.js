@@ -7,10 +7,10 @@ import Image from 'next/image'
 import logo from '../../../public/logo.png'
 
 const navigation = [
-  { name: 'Projects', href: '/projects' },
-  { name: 'About', href: '/about' },
-  { name: 'Learning', href: '/learning' },
-  { name: 'Coffee?', href: '/contact' },
+  { name: 'Projects', href:'/projects' },
+  { name: 'About', href:'/about' },
+  { name: 'Learning', href:'/learning' },
+  { name: 'Coffee?', href:'/contact' },
 ]
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
       <header className="fixed inset-x-0 top-0 z-50 bg-[#fff]">
         <nav className="flex items-center justify-between py-4 px-4 md:px-40 md:py-4" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <a href='/' className="-m-1.5 p-1.5">
               <Image
                 className="h-8 w-auto"
                 src={logo}

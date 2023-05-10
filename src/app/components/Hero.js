@@ -9,6 +9,7 @@ import book from '../../../public/images/book.png'
 import profile from '../../../public/images/profile.png'
 
 const Hero = () => {
+
     return (
         <>
             <div className="flex flex-col w-auto px-4 mt-[80px] md:px-0 md:grid md:grid-cols-12 md:mx-40">
@@ -19,17 +20,19 @@ const Hero = () => {
                     <p className="mt-3 text-[#767676]">
                         With over 1 year of experience in understanding problems, obsessing over customers, designing solutions with efficiency.‍
                     </p>
-                    <button href={'#prjdiv'}
+                    <Link href="/#project" scroll={false}>
+                    <button 
                     className='py-2 px-6  mt-[40px] border text-primary border-primary rounded-lg font-[500]'
                     
                     >Ray’s Projects ↓</button>
+                    </Link>
                 </div>
             </div>
             
             <div className="border border-[#ddd] mx-4 my-20  
             md:mx-40"></div>
 
-            <div className="flex flex-column w-auto px-4 mt-[80px] 
+            <div id='project' className="flex flex-column w-auto px-4 mt-[80px] 
             md:mx-40 md:px-0">
                 <h2 className="text-[32px] leading-[32px] 
                 md:text-[40px] md:leading-[40px]">
@@ -39,7 +42,7 @@ const Hero = () => {
 
             <div id='prjdiv' className="flex flex-col w-auto px-4 mt-[40px] 
             md:mt-[60px] md:px-0 md:mx-40">
-                <Link href={'/bob'}>
+                <Link href='/bob'>
                     <Image id='prjimg' src={bob} className='object-cover object-left h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
                     md:w-full' />
                     <div className='
@@ -153,6 +156,12 @@ const Hero = () => {
                 <Image src={profile} alt='profile' className='rounded-lg w-full md:col-span-5' />
                 <div className='col-start-6 col-end-13 self-center'>
                 <h1 className=''>I am a diligent, self-motivated, and design thinking minded product designer to help craft smooth experiences for digital products.</h1>
+                <Link href={'/about'}>
+                    <button
+                    className='py-2 px-6  mt-[40px] border text-primary border-primary rounded-lg font-[500]'
+                    
+                    >More About Ray →</button>
+                </Link>
                 </div>
             </div>
 

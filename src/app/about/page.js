@@ -1,9 +1,9 @@
-
+import Abt from '../components/Abt'
 
 export default function About() {
     return (
       <main>
-        <h1>Hello World!</h1>
+        <Abt />
       </main>
     )
   }

@@ -1,9 +1,9 @@
-
+import Learn from '../components/Learn'
 
 export default function Learning() {
     return (
       <main>
-        <h1>Hello World!</h1>
+        <Learn />
       </main>
     )
   }
