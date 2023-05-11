@@ -62,7 +62,7 @@ const Hero = () => {
 
             <div id='prjdiv' className="flex flex-col w-auto px-4 mt-[100px] 
             md:mt-[60px] md:px-0 md:mx-40">
-                <Link href={'/moonstuidoai'}>
+                <Link href={'/moonstudioai'}>
                     <Image id='prjimg' src={moon} className='object-cover object-center h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
                         md:w-full' />
                     <div className='
