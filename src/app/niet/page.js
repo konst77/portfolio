@@ -2,8 +2,10 @@
 
 import { motion, useScroll } from "framer-motion";
 import Prjhero from '../components/Prjhero'
+import Prjintro from "../components/Prjintro";
 import nietphone from '../../../public/images/niet/nietphone.png'
-import Niet from "../components/Nietprj";
+import Nietprj from "../components/Nietprj";
+import intro from '../../../public/images/niet/intro.png'
 
 export default function Niet() {
 
@@ -12,6 +14,9 @@ export default function Niet() {
   const intro2 = "Duration: 30 days"
   const intro3 = "Team: Sole Designer"
   const intro4 = "Role: Product Design"
+  const text = "Post-Covid era means breaking away from the past and moving on forward."
+  const description = "Before Covid, about 61% of American adults have reported feeling lonely. Isolation from Covid increased this number to an extent. As we move on from Covid, we created an app design to help fight loneliness with careful psychological designs."
+  const header = "BREIF"
   const { scrollYProgress } = useScroll();
 
   return (
@@ -22,7 +27,9 @@ export default function Niet() {
       />
       <Prjhero src={nietphone} text={title} intro1={intro1} intro2={intro2} intro3={intro3} intro4={intro4} />
 
-      <Niet />
+      <Prjintro src={intro} text={text} description={description} header={header} />
+
+      <Nietprj />
     </main>
   )
 }

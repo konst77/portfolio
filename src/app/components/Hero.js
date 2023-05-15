@@ -59,7 +59,7 @@ const Hero = () => {
             <div id='prjdiv' className="flex flex-col w-auto px-4 mt-[40px] 
             md:mt-[60px] md:px-0 md:mx-40">
                 <Link href='/bob'>
-                    <Image id='prjimg' src={bob} className='object-cover object-left h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
+                    <Image id='prjimg' alt='bob' src={bob} className='object-cover object-left h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
                     md:w-full' />
                     <div className='
                     md:mt-[20px] md:px-0 md:grid md:grid-cols-12 md:grid-rows-2'>                            
@@ -79,7 +79,7 @@ const Hero = () => {
             <div id='prjdiv' className="flex flex-col w-auto px-4 mt-[100px] 
             md:mt-[60px] md:px-0 md:mx-40">
                 <Link href={'/moonstudioai'}>
-                    <Image id='prjimg' src={moon} className='object-cover object-center h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
+                    <Image id='prjimg' alt='moonstudioai' src={moon} className='object-cover object-center h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
                         md:w-full' />
                     <div className='
                     md:mt-[20px] md:px-0 md:grid md:grid-cols-12 md:grid-rows-2'>
@@ -100,7 +100,7 @@ const Hero = () => {
             <div id='prjdiv' className="flex flex-col w-auto px-4 mt-[100px] 
             md:mt-[60px] md:px-0 md:mx-40">
                 <Link href={'/niet'}>
-                    <Image id='prjimg' src={niet} className='object-cover object-right h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
+                    <Image id='prjimg' alt='niet' src={niet} className='object-cover object-right h-[240px] sm:h-auto w-auto bg-[#f1f1f5] rounded-lg col-span-full mb-3 
                     md:w-full' />
                     <div className='
                     md:mt-[20px] md:px-0 md:grid md:grid-cols-12 md:grid-rows-2'>
@@ -129,9 +129,9 @@ const Hero = () => {
 
                 <div className="flex flex-col w-auto mt-[80px] gap-[30px] 
                 md:px-0 md:grid md:grid-cols-12">
-                    <Link href={'/humancenteredstudio'} className="block col-auto w-full md:col-span-4">
+                    <Link href={'/journey'} className="block col-auto w-full md:col-span-4">
                         <div id='prjdiv'>
-                            <Image id='prjimg' src={hcd} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
+                            <Image id='prjimg' alt='journey' src={hcd} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
                             md:w-full' />
                             <div>
                                 <h3>My journey into design</h3>
@@ -140,10 +140,10 @@ const Hero = () => {
                         </div>
                     </Link>
 
-                    <Link href={'/ai'} className="block col-auto w-full 
+                    <Link href={'/learn'} className="block col-auto w-full 
                     md:col-span-4">
                         <div id='prjdiv'>
-                            <Image id='prjimg' src={ai} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
+                            <Image id='prjimg' alt='learn' src={ai} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
                             md:w-full' />
                             <div>
                                 <h3>To anyone learning design from the start.</h3>
@@ -155,7 +155,7 @@ const Hero = () => {
                     <Link href={'/library'} className="block col-auto w-full 
                     md:col-span-4">
                         <div id='prjdiv'>
-                            <Image id='prjimg' src={book} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
+                            <Image id='prjimg' alt='library' src={book} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
                             md:w-full' />
                             <div>
                                 <h3>Specifically opinionated bookshelf</h3>

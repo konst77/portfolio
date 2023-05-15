@@ -1,6 +1,6 @@
 
 
-export default function Ai() {
+export default function Journey() {
   return (
     <main>
       <h1>Hello World!</h1>
