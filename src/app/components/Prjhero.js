@@ -5,7 +5,7 @@ const Prjhero = ({ src, text, intro1, intro2 ,intro3, intro4}) => {
     return(
         <div className="flex flex-col w-auto px-4 mt-[80px] md:px-0 md:grid md:grid-cols-12 md:mx-40 md:grid-row-2">
             <Image src={src} alt="HeaderImage"
-            className='block md:col-start-7 md:col-span-6 md:row-span-2 bg-[#f1f1f5] border rounded-lg'
+            className='block md:col-start-7 md:col-span-6 md:row-span-2 border rounded-lg'
             />
 
             <div className='mt-[40px] md:mt-0 md:col-start-1 md:col-end-6 md:row-start-1 md:self-center md:row-span-2 md:mb-[80px]'>

@@ -1,3 +1,7 @@
+'use client';
+
+import React from 'react'
+import { Typewriter } from 'react-simple-typewriter'
 import Image from 'next/image'
 import Link from 'next/link'
 import bob from '../../../public/images/bob.png'
@@ -12,13 +16,25 @@ const Hero = () => {
 
     return (
         <>
-            <div className="flex flex-col w-auto px-4 mt-[80px] md:px-0 md:grid md:grid-cols-12 md:mx-40">
-                <div className="w-full mt-[240px] md:col-start-1 md:col-end-6 md:mt-[480px]">
+            <div className="flex flex-col w-auto justify-center px-4 h-[400px] md:h-[800px] mt-[80px] md:px-0 md:grid md:grid-cols-12 md:mx-40">
+                <div className="w-full md:col-start-1 md:col-end-5 md:self-center">
                     <h1 className="text-[32px] leading-[32px] md:text-[48px] md:leading-[56px]">
-                        Ray the Product Designer weirdly obsessed with digital products.
+                        Ray is a Product Designer weirdly obsessed with<br></br> {''}
+                        <span>
+                            {/* Style will be inherited from the parent element */}
+                            <Typewriter
+                              words={['Digital Product.', 'Code Development.', 'Human Purpose.', 'Beautiful Interaction.']}
+                              loop={0 | false}
+                              cursor
+                              cursorStyle='_'
+                              typeSpeed={50}
+                              deleteSpeed={30}
+                              delaySpeed={1000}
+                            />
+                        </span>
                     </h1>
                     <p className="mt-3 text-[#767676]">
-                        With over 1 year of experience in understanding problems, obsessing over customers, designing solutions with efficiency.‍
+                        Full stack product designer, designing and developing human-centered products.
                     </p>
                     <Link href="/#project" scroll={false}>
                     <button 
@@ -54,7 +70,7 @@ const Hero = () => {
                             Information Architecture<br></br>User Experience<br></br>Web Development
                         </p>                            <p className='text-[#767676] mt-[10px] md:col-start-8 md:col-end-13 md:m-0'>
                         The BoB is a Korean restaurant on a mission to serve original Korean cuisines. 
-                        From a vague vision to a celebrated local attraction.
+                        From a vague vision to a celebrated local attraction, only by changing the menu.
                         </p>
                     </div>
                 </Link>
@@ -75,7 +91,7 @@ const Hero = () => {
                         </p>
                         <p className='text-[#767676] mt-[10px] 
                         md:col-start-8 md:col-end-13 md:m-0'>
-                            some sort of text
+                            Building an effective environment for coding an image focused website with static development.
                         </p>
                     </div>
                 </Link>
@@ -92,10 +108,11 @@ const Hero = () => {
                         md:col-start-1 md:col-end-5'>n i e t</h3>
                         <p className='block text-sm text-[#767676] leading-4 
                         md:col-start-5 md:col-end-8 md:text-lg md:leading-5'>
-                            Research<br></br>Mobile Design<br></br>Accessibility
+                            Mobile Design<br></br>Accessibility
                         </p>
                         <p className='text-[#767676] mt-[10px] md:col-start-8 md:col-end-13 md:m-0'>
-                        niet is a social habit app that helps those facing psychological struggles find direction. By exposing users to positive role models, niet encourages new perspectives and aspirations.
+                        niet is a social habit app that helps those facing psychological struggles find direction. Focusing on iteration from wireframing to 
+                        prototyping an app considering accessibility.
                         </p>
                     </div>
                 </Link>
@@ -129,8 +146,8 @@ const Hero = () => {
                             <Image id='prjimg' src={ai} className='h-auto w-auto bg-[#f1f1f5] rounded-lg mb-3 
                             md:w-full' />
                             <div>
-                                <h3>Desire to hammer average ideas</h3>
-                                <p className='text-[#767676]'>In the new era, I am experiencing new opportunities to make the world a better place for humans.</p>
+                                <h3>To anyone learning design from the start.</h3>
+                                <p className='text-[#767676]'>Giving back what I had been receiving from the community.</p>
                             </div>
                         </div>
                     </Link>

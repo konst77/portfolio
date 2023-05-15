@@ -1,10 +1,11 @@
-
+'use client';
 
 export default function Projects() {
+
     return (
-      <main>
-        <h1>Hello World!</h1>
-      </main>
+      <div className=''>
+        <h1 className="mt-[140px]">Hello World!</h1>
+      </div>
     )
   }
   

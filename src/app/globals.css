@@ -49,3 +49,19 @@ h3 {
   transform: scale(0.98);
   transition-duration: 300ms;
 }
+
+em {
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: red;
+  transform-origin: 0%;
+}

@@ -1,9 +1,12 @@
+import Image from 'next/image'
+import Lib from '../components/Lib'
 
 
-export default function Library() {
-  return (
-    <main>
-      <h1>Hello World!</h1>
-    </main>
-  )
+const Library = () => {
+
+    return(
+        <Lib />
+    )
 }
+
+export default Library;

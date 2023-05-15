@@ -10,7 +10,7 @@ const Prjintro = ({ src, text, description, header}) => {
                 <h4 className='text-primary text-[18px] tracking-widest font-medium'>
                     {header}
                 </h4>
-                <h1 className='mt-[10px] text-[24px] leading-[32px] md:text-[40px] md:leading-[40px]'>
+                <h1 className='mt-[10px] text-[32px] leading-[32px] md:text-[40px] md:leading-[40px]'>
                     {text}
                 </h1>
 
